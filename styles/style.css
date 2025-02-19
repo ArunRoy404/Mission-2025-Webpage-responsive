@@ -165,3 +165,21 @@ section{
     flex-direction: column;
     gap: 50px;
 }
+.about-img-container{
+    position: relative;
+}
+.about-shape1 img{
+    position: absolute;
+    width: 225px;
+    top: 54px;
+    left: -94px;
+    z-index: -1;
+}
+.about-shape2 img{
+    position: absolute;
+    width: 200px;
+    bottom: -74px;
+    right: -94px;
+    z-index: -1;
+    
+}
