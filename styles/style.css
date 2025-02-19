@@ -33,10 +33,10 @@
     padding: 0px;
 }
 
-body{
+header, main{
     font-family: poppins;
     width: 80vw;
-    margin: 100px auto 50px;
+    margin: 0px auto;
 }
 
 p{
@@ -56,7 +56,7 @@ p{
     padding: 12px 20px;
     border: none;
 }
-section{
+main section{
     margin-top: 70px;
 }
 /* banner  */
@@ -238,4 +238,21 @@ section{
 } 
 .app-contant{
     width: 650px;
+}
+
+/* footer section  */
+footer h3{
+    font-family: Lobster;
+    font-size: 36px;
+    color: white;
+}
+footer span{
+    color: rgb(255, 89, 89);
+}
+footer p{
+    color: rgb(217, 219, 225);
+    font-family: Manrope;
+}
+footer{
+    background-color: black;
 }
