@@ -36,7 +36,7 @@
 body{
     font-family: poppins;
     width: 80vw;
-    margin: 100px auto;
+    margin: 100px auto 50px;
 }
 
 p{
@@ -181,5 +181,61 @@ section{
     bottom: -74px;
     right: -94px;
     z-index: -1;
-    
+}
+
+/* app section  */
+.app-contant h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+.app-contant span{
+    color: rgb(255, 173, 90);
+}
+.app-img-container{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-img-container > div{
+    width: 230px;
+    position: relative;
+}
+.app-img{
+    width: 100%;
+}
+.shape1{
+    position: absolute;
+    width: 150px;
+    top: -30px;
+    left: -50px;
+    z-index: -1;
+}
+.shape2{
+    position: absolute;
+    width: 80px;
+    bottom: 80px;
+    right: -10px;
+    z-index: -1;
+}
+.shape3{
+    position: absolute;
+    width: 80px;
+    bottom: -5px;
+    left: -10px;
+    z-index: -1;
+
+}
+
+.app-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+
+} 
+.app-contant{
+    width: 650px;
 }
