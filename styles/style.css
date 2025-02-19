@@ -255,4 +255,14 @@ footer p{
 }
 footer{
     background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
