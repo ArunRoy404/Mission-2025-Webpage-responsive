@@ -56,7 +56,9 @@ p{
     padding: 12px 20px;
     border: none;
 }
-
+section{
+    margin-top: 70px;
+}
 /* banner  */
 .banner h1{
     font-family: Yeseva One;
@@ -80,4 +82,52 @@ p{
 
 .banner p{
     margin: 15px 0px 19px 0px;
+}
+
+
+/* missions */
+.mission-section h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(19, 16, 58);
+}
+.mission-section span{
+    color: rgb(255, 173, 90);
+}
+.mission img{
+    width: 126px;
+}
+.mission h5{
+    font-size: 24px;
+    font-weight: 600;
+}
+.mission p{
+    color: rgb(66, 66, 66);
+    font-size: 16px;
+}
+.mission{
+    width: 340px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 26px;
+    text-align: left;
+}
+.mission-1{
+    background: rgba(79, 157, 166, 0.1) ;
+}
+.mission-2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.mission-3{
+    background: rgb(255, 244, 214);
+}
+.mission-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mission-section{
+    text-align: center;
 }
