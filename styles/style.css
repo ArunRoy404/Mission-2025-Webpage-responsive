@@ -126,6 +126,7 @@ main section{
 .mission-container{
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     margin-top: 50px;
 }
 .mission-section{
@@ -271,6 +272,7 @@ footer section{
     gap: 25px;
 }
 
+/* small device  */
 @media screen and (max-width: 575px) {
     main section{
         margin-top: 100px;
@@ -316,6 +318,61 @@ footer section{
     .app-section{
         flex-direction: column;
     }
+    .app-contant{
+        width: auto;
+    }
+    .app-img-container{
+        width: auto;
+    }
+
+    footer p{
+        width: 60%;
+    }
+    footer section{
+        align-items: center;
+    }
+}
+
+/* medium device  */
+@media screen and (min-width: 576px) and (max-width: 1200px) {
+    main section{
+        margin-top: 100px;
+    }
+    header, main{
+        padding: 24px;
+        width: calc(100% - 80px);
+        margin: 0px auto;
+    }
+    .img-container{
+        width: 300px;
+    }
+    .banner img{
+        width: 100%
+    }
+
+    /* mission  */
+    .mission-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .mission{
+        width: auto;
+    }
+
+    /* about  */
+    .about img{
+        width: 300px;
+    }
+    .about-container{
+        gap: 100px;
+    }
+    .about-shape2{
+        display: none;
+    }
+ 
+
+    /* app  */
     .app-contant{
         width: auto;
     }
