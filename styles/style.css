@@ -300,6 +300,7 @@ footer section{
     /* about  */
     .about{
         flex-direction: column;
+        gap: 10px;
     }
     .about img{
         width: 100%;
@@ -316,6 +317,9 @@ footer section{
         flex-direction: column;
     }
     .app-contant{
+        width: auto;
+    }
+    .app-img-container{
         width: auto;
     }
 
